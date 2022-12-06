@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: background 0.3s;
+
+    
+    background-color: blueviolet;
+}
+
+.col h2 {
+    padding: 6px;
+    color: white;
+    background-color: white;
+    border-radius: 7px;
+    transition: background 0.3s;
+}
+
+.col h2:hover {
+    background-color: #000a;
+    cursor: pointer;
+}
+
+.col button {
+    color: white;
+    border: none;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    padding: 6px;
+    transition: background 0.3s;
+}
+
+.col button:hover {
+    cursor: pointer;
+}
